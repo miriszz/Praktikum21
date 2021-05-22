@@ -14,9 +14,10 @@ public class Line {
     }
 
 
-    public void invertDirection(Line line){
-        Startpunkt = line.Endpunkt;
-        Endpunkt = line.Startpunkt;
+    public void invertDirection(){
+        Point temp = Startpunkt;
+        Startpunkt = Endpunkt;
+        Endpunkt = temp;
     }
 
 

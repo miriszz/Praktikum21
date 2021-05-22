@@ -8,9 +8,8 @@ public class testLine {
 
         Line l = new Line(p1, p2);
 
-        System.out.println(p1.toString());
         System.out.println(l.toString());
-
-        System.out.println(l.side(p1));
+        l.invertDirection();
+        System.out.println(l.toString());
     }
 }
